@@ -23,16 +23,16 @@ const clientId = "BMOc5Go9Zan4NTQlrezQe93wA6HLa9Q3DiDJHc85QAlPt8T2N22XLSdRSBjW7p
 
 // IMP START - Chain Config
 const chainConfig = {
-    chainNamespace: CHAIN_NAMESPACES.EIP155,
-    chainId: "0x13882", // hex of 80002, polygon testnet
-    rpcTarget: "https://rpc.ankr.com/polygon_amoy",
-    // Avoid using public rpcTarget in production.
-    // Use services like Infura, Quicknode etc
-    displayName: "Polygon Amoy Testnet",
-    blockExplorerUrl: "https://amoy.polygonscan.com",
-    ticker: "MATIC",
-    tickerName: "Matic",
-    logo: "https://web3auth.io/images/web3authlog.png",
+  chainNamespace: CHAIN_NAMESPACES.EIP155,
+  chainId: "0xaa36a7",
+  rpcTarget: "https://rpc.ankr.com/eth_sepolia",
+  // Avoid using public rpcTarget in production.
+  // Use services like Infura, Quicknode etc
+  displayName: "Ethereum Sepolia Testnet",
+  blockExplorerUrl: "https://sepolia.etherscan.io",
+  ticker: "ETH",
+  tickerName: "Ethereum",
+  logo: "https://cryptologos.cc/logos/ethereum-eth-logo.png",
 };
 // IMP END - Chain Config
 
